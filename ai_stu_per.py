@@ -198,8 +198,6 @@ Insights:
 4. The higher the tool diversity the higher the skill retention score (0.20)
 5. The students who study more traditional hours are less prone to be dependent on ai (-0.10)
 6. The students who study more traditional hours have more difference in gpa than those who study weekly genai hours (0.38 and -0.05)
-
 7. The more ai dependent they are on ai the more anxiety they face during exams (0.31)
-8. 
-9. The students who have scored high have high skill retention score and whereas who scored low has low skill retention (0.20)
+8. The students who have scored high have high skill retention score and whereas who scored low has low skill retention (0.20)
 """
