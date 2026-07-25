@@ -155,3 +155,51 @@ axes[2].set_ylabel('')
 
 pt.subplots_adjust(hspace=0.4,wspace=0.4,left=0.2)
 pt.show()
+
+
+#finding correlation by plotting the heatmap
+num_cols = data.select_dtypes(include=['float64', 'int64']).columns
+corr_matrix=data[num_cols].corr()
+pt.figure(figsize=(10,8))
+sb.heatmap(corr_matrix,annot=True,cmap='coolwarm',fmt='.2f')
+pt.title('Correlation Heatmap')
+pt.tight_layout()
+pt.show()
+
+
+#the following are the noticed correlations in the heatmap
+"""pre sem vs skill retention
+weekly genai hours vs ai dependency
+weekly genai hours vs anxiety
+weekly genai vs skill retention
+tool diversity vs skill retention
+traditional study hours vs weekly gen ai 
+traditional study hours vs ai dependency
+traditional study hours vs post sem gpa
+traditional study hours vs skill retention
+traditional study hours vs difference in gpa
+ai dependency vs anxiety
+post sem vs skill retention
+skill retention vs difference in gpa
+"""
+#out of these, the ones worth diving into and relevant for our analysis are
+"""weekly geniai hours vs ai dependency
+weekly genai hours vs anxiety
+weekly genai vs skill retention
+skill retention vs difference in gpa
+ai dependency vs anxiety
+traditional study hours vs difference in gpa"""
+
+"""
+Insights:
+1. Pre sem and post sem gpa shows high correlation suggesting that nearly all students have improved their gpa (0.93)
+2. Very low correlation but people who spend more time on genai, spend less on time traditional study hours (-0.16)
+3. The students who spend more time on genai are prone to be more dependent on ai (0.67)
+4. The higher the tool diversity the higher the skill retention score (0.20)
+5. The students who study more traditional hours are less prone to be dependent on ai (-0.10)
+6. The students who study more traditional hours have more difference in gpa than those who study weekly genai hours (0.38 and -0.05)
+
+7. The more ai dependent they are on ai the more anxiety they face during exams (0.31)
+8. 
+9. The students who have scored high have high skill retention score and whereas who scored low has low skill retention (0.20)
+"""
