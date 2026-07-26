@@ -144,12 +144,9 @@ The project contains:
 
 
 
-## Correlation Heatmap
-![Heatmap](images/Correlation_Heatmap.png)
+## Graphs
 
-## Boxplot of all Numerical columns
-![Heatmap](images/Boxplot_of_all_Numerical_columns.png)
-
+📊 [View all graphs](https://github.com/<username>/<repo>/tree/main/images)
 
 
 ---
