@@ -136,20 +136,21 @@ Difference_in_GPA = Post_Semester_GPA - Pre_Semester_GPA
 The project contains:
 
 - 📦 Boxplots
+- 📉 Outlier Comparison (Before vs After)
 - 📈 Histograms with KDE
 - 📊 Count Plots
 - 🔥 Correlation Heatmap
-- 📉 Outlier Comparison (Before vs After)
 
-> *(Add screenshots of your plots inside an `/images` folder and embed them here.)*
 
-Example:
 
-```markdown
+
 ## Correlation Heatmap
-
 ![Heatmap](images/heatmap.png)
-```
+
+## Boxplot of all Numerical columns
+![Heatmap](images/Boxplot of all Numerical columns.png)
+
+
 
 ---
 
