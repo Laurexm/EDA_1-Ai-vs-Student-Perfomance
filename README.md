@@ -146,7 +146,7 @@ The project contains:
 
 ## Graphs
 
-📊 [View all graphs](https://github.com/Laurexm/EDA_1-Ai-vs-Student-Perfomance/images/)
+📊 [View all graphs](https://github.com/Laurexm/EDA_1-Ai-vs-Student-Perfomance/tree/main/images)
 
 
 ---
