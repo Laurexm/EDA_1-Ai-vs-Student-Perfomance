@@ -229,6 +229,7 @@ Through this project I gained hands-on experience in:
 
 - Understand the domain of the dataset to analyse better
 - Exploratory Data Analysis Process
+- Learnt about Capping effect in Synthetic Dataset
 - Data Cleaning without losing core data
 - Outlier Detection using IQR
 - Correlation Analysis through Heatmap
