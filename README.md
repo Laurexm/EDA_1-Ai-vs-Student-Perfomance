@@ -166,27 +166,28 @@ This indicates the dataset contains a **capping artifact**, where GPA values are
 ### 📚 Academic Performance
 
 - Strong correlation between Pre and Post Semester GPA (**0.93**)
-- Traditional studying contributed more towards GPA improvement than AI usage.
+- Students who had higher GPA in pre sem tend to have scored more in post sem too.
 
 ---
 
 ### 🤖 AI Usage
 
 - Weekly GenAI usage strongly correlated with AI Dependency (**0.67**)
-- Increased AI usage slightly reduced traditional study hours.
+- Increased GenAI usage directly contributes to be more dependent on AI.
 
 ---
 
 ### 🧠 Skill Retention
 
 - Greater AI Tool Diversity showed slightly better Skill Retention.
-- Students with stronger academic performance retained concepts better.
+- Students who used a diverse AI toolset tend to have better Skill Retention. Presumably because of knowing which AI toolset to use for which specific purpose.
 
 ---
 
 ### 😰 Anxiety
 
 - Higher AI Dependency correlated with higher Exam Anxiety (**0.31**).
+- Students who have high AI dependency tend to be more anxious during exams.
 
 ---
 
@@ -202,16 +203,11 @@ Students who balanced **Generative AI with Traditional Studying** generally demo
 AI-Student-Performance-EDA
 │
 ├── ai_student_impact_dataset.csv
-├── eda_analysis.py
+├── ai_stu_per.py
 ├── README.md
 │
-├── images/
-│     ├── boxplots.png
-│     ├── histogram.png
-│     ├── heatmap.png
-│     └── countplots.png
-│
-└── requirements.txt
+├── images
+
 ```
 
 ---
@@ -231,14 +227,14 @@ AI-Student-Performance-EDA
 
 Through this project I gained hands-on experience in:
 
-- Data Cleaning
-- Exploratory Data Analysis
-- Outlier Detection
-- Correlation Analysis
-- Feature Engineering
-- Data Visualization
-- Insight Generation
-- Storytelling with Data
+- Understand the domain of the dataset to analyse better
+- Exploratory Data Analysis Process
+- Data Cleaning without losing core data
+- Outlier Detection using IQR
+- Correlation Analysis through Heatmap
+- Basic Feature Engineering
+- Choosing the appropriate Data Visualization specific to the Columns
+- Deriving insights from visualizations
 
 ---
 
@@ -248,7 +244,7 @@ Through this project I gained hands-on experience in:
 
 **Final Year Data Science Student**
 
-Python • Data Analysis • Data Visualization • Machine Learning
+Python • Exploratory Data Analysis • Data Visualization 
 
 ---
 
