@@ -145,10 +145,10 @@ The project contains:
 
 
 ## Correlation Heatmap
-![Heatmap](images/heatmap.png)
+![Heatmap](images/Correlation_Heatmap.png)
 
 ## Boxplot of all Numerical columns
-![Heatmap](images/Boxplot of all Numerical columns.png)
+![Heatmap](images/Boxplot_of_all_Numerical_columns.png)
 
 
 
